@@ -1,0 +1,13 @@
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
+  margin: 0;
+  list-style-type: none;
+}
+.two-columns__main-text :nth-child(2n) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
